@@ -1,2 +1,10 @@
-package PACKAGE_NAME;public class Mage {
+public class Mage extends Hero{
+    public Mage(String name) {
+        super(name);
+    }
+
+    @Override
+    public void attackEnemy() {
+        System.out.println("Magic hit");
+    }
 }
