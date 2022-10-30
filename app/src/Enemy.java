@@ -1,4 +1,4 @@
-public class Enemy {
+public class Enemy implements Mortal {
     private int health;
 
     public Enemy(int health){
@@ -20,5 +20,10 @@ public class Enemy {
         else {
             health -= damage;
         }
+    }
+
+    @Override
+    public boolean isAlive() {
+        return health > 0;
     }
 }

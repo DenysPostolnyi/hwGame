@@ -19,5 +19,13 @@ public class TrainingGround {
         System.out.println("Hero's name: " + heroAlex.getName());
         heroAlex.attackEnemy(enemy);
         System.out.println("Enemy's hp: " + enemy.getHealth());
+
+        System.out.println("<---------->");
+        System.out.println("Test isAlive");
+        System.out.println("Enemy's hp: " + enemy.getHealth());
+        System.out.println("Enemy is alive - " + enemy.isAlive());
+        enemy.setHealth(0);
+        System.out.println("Enemy's hp: " + enemy.getHealth());
+        System.out.println("Enemy is alive - " + enemy.isAlive());
     }
 }
