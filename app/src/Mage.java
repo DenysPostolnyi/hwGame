@@ -4,7 +4,8 @@ public class Mage extends Hero{
     }
 
     @Override
-    public void attackEnemy() {
-        System.out.println("Magic hit");
+    public void attackEnemy(Enemy enemy) {
+        System.out.println("Magic hit, damage: 15hp");
+        enemy.takeDamage(15);
     }
 }

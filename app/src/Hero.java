@@ -9,7 +9,8 @@ public class Hero {
         return name;
     }
 
-    public void attackEnemy(){
-        System.out.println("Enemy attacked");
+    public void attackEnemy(Enemy enemy){
+        System.out.println("Enemy attacked, damage: 5hp");
+        enemy.takeDamage(5);
     }
 }
