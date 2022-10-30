@@ -4,7 +4,7 @@ public class TrainingGround {
         Mage heroLeyla = new Mage("Mage Leyla");
         Archer heroAlex = new Archer("Archer Alex");
         Enemy enemy = new Enemy(100);
-        
+
         System.out.println("Enemy's hp: " + enemy.getHealth());
         System.out.println("<---------->");
 
