@@ -3,7 +3,7 @@ public class TrainingGround {
         Warrior heroJack = new Warrior("Warrior Jack");
         Mage heroLeyla = new Mage("Mage Leyla");
         Archer heroAlex = new Archer("Archer Alex");
-        Enemy enemy = new Enemy(100);
+        Zombie enemy = new Zombie(100);
 
         System.out.println("Enemy's hp: " + enemy.getHealth());
         System.out.println("<---------->");
